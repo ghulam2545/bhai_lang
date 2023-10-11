@@ -65,7 +65,7 @@ chalao_bhai (bhai_ye_hai i=0; i<6; i=i+1) {
 function
 ```
 karna_bhai multiply (a, b) {
-    return a * b;
+    lauta_bhai a * b;
 }
 
 bol_bhai multiply(3, 6); // call
