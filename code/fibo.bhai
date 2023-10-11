@@ -1,0 +1,19 @@
+// print some fibonacci numbers
+
+karna_bhai fib (count) {
+    bhai_ye_hai first = 1;
+    bhai_ye_hai second = 2;
+
+    bol_bhai first + ", ";
+    bol_bhai second + ", ";
+
+    chalao_bhai (bhai_ye_hai i=0; i<count; i=i+1) {
+        bhai_ye_hai total = first + second;
+        bol_bhai total + ", ";
+
+        first = second;
+        second = total;
+    }
+}
+
+fib(6);

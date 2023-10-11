@@ -1,0 +1,61 @@
+// single line comment
+
+// bol_bhai "hello world";
+// bol_bhai line_break;
+
+// bhai_ye_hai pass = sahi;
+// agar_bhai (pass == galat) {
+//     bol_bhai "tu fail ho gya";
+// } warna_bhai {
+//     bol_bhai "tu pass ho gya";
+// }
+
+// bhai_ye_hai s = 1;
+// jab_tak_bhai (s <= 5) {
+//     bol_bhai s;
+//     s = s + 1;
+// }
+
+// bol_bhai "3 ka table";
+// chalao_bhai (bhai_ye_hai i=1; i<=10; i=i+1) {
+//     bol_bhai 3 * i;
+// }
+
+
+// only support for sinfle line comment
+bol_bhai "Hello World";
+bol_bhai line_break;
+
+bhai_ye_hai x = 10; // only double values
+bhai_ye_hai y = 20;
+
+bol_bhai x + y;
+bol_bhai line_break;
+bol_bhai x * y;
+
+bhai_ye_hai winner = sahi; // var decl
+agar_bhai (winner == sahi) {
+    bol_bhai "tu winner hai.";
+} warna_bhai {
+    bol_bhai "tu looser hai.";
+}
+
+bhai_ye_hai banana = 4;
+jab_tak_bhai (banana > 0) { // while loop
+    bol_bhai "remaining banana: " + banana;
+    bol_bhai line_break;
+    banana = banana - 1;
+}
+
+
+// for loop
+chalao_bhai (bhai_ye_hai i=0; i<6; i=i+1) {
+    bol_bhai i;
+    bol_bhai line_break;
+}
+
+karna_bhai multiply (a, b) {
+    lauta_bhai a * b;
+}
+
+bol_bhai multiply(3, 6); // call

@@ -1,0 +1,14 @@
+// function to evaluate facto
+
+karna_bhai factorial (val) {
+    bhai_ye_hai ans = 1;
+    
+    chalao_bhai (bhai_ye_hai i=1; i<=val; i=i+1) {
+        ans = ans * i;
+    }
+
+    lauta_bhai ans;
+}
+
+
+bol_bhai "5 ka factorial: " + factorial(5);
