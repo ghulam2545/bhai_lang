@@ -21,7 +21,7 @@ java -classpath "E:\bhai_lang\target" App .\your\dirs\filename.bhai
 
 Hello World
 ```
-// only support for sinfle line comment
+// only support for single line comment
 bol_bhai "Hello World";
 bol_bhai line_break;
 ```
